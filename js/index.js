@@ -37,7 +37,6 @@ busPic.addEventListener('mouseover',  things=>things.target.src = 'img/destinati
 const myBus = document.querySelector('img');
 myBus.addEventListener('mouseleave',  bussie=>bussie.target.src = 'img/fun-bus.jpg')
 
-
 // 7.) Window: Resize, bus image change 
 const smallBus = document.querySelector('.intro img');
 window.addEventListener('resize', () => {
@@ -65,6 +64,7 @@ redact.style.backgroundColor = 'black';
     
 });
 
+// ---Prevent Default---
 const no = document.querySelector('a')
 no.addEventListener('click', (dont) =>{
 dont.preventDefault()
